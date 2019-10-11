@@ -1,0 +1,64 @@
+.inBox {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: lightgray;
+    border-radius: 3em;
+  }
+  .appImg{
+    width: 20rem;
+    height: 20rem;
+  }
+  .profImg {
+    border-radius: 50%;
+    width: 2em;
+    height:2em;
+
+  }
+  .sidebar{
+    width: 8rem;
+    position: fixed;
+    z-index: 1;
+    top: 7em;
+    right: 3em;
+    padding: 8px 0;
+  }
+  .calcButton {
+    -moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+    -webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+    box-shadow:inset 0px 1px 3px 0px #91b8b3;
+    background-color:#768d87;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border:1px solid #566963;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Verdana;
+    font-size:9px;
+    padding:8px 19px;
+    text-decoration:none;
+  }
+  .calcButton:hover {
+    background-color:#6c7c7c;
+  }
+  .calcButton:active {
+    position:relative;
+    top:1px;
+  }
+  
+
+  .backgroundImg {
+    background-image: url("https://images.unsplash.com/photo-1483232539664-d89822fb5d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80");
+    height: 100%;
+    position: relative;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* fixed in viewport */
+  }
+
+  .outsideHeader {
+      color: white;
+  }
